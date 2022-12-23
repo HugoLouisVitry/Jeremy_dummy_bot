@@ -4,6 +4,7 @@
 
 #ifndef MOTOR_H
 #define MOTOR_H
+
 #include <Arduino.h>
 
 #define motorA_PWM
@@ -20,9 +21,7 @@ class Motor
     public:
         Motor(int pwm_pin,int pos_dir_pin,int neg_dir_pin);
         void init();
-        void command(float cmd_speed);
-        
-    
+        void command(float cmd_speed);    
 }
 
 
