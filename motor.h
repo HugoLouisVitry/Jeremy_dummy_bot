@@ -21,6 +21,7 @@ class Motor
         Motor(int pwm_pin,int pos_dir_pin,int neg_dir_pin);
         void init();
         void command(float cmd_speed);
+        
     
 }
 
