@@ -11,6 +11,7 @@
 #define motorB_dir_neg
 
 #define ZERO_SPEED;
-
+#define NOMINAL_MOVE_SPEED; // PWM 
+#define NOMINAL_ROTATION_SPEED; // PWM 
 
 # endif
