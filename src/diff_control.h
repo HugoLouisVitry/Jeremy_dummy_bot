@@ -6,10 +6,14 @@
 class Controll
 {
     public:
-        void init(Motor mot_A, Motor mot_B)
-        void move(cmd_move_speed)
-        void rotate(cmd_rot_speed)
-        void stop()
+        Controll(Motor mot_A, Motor mot_B);
+        void move(float cmd_move_speed);
+        void rotate(float cmd_rot_speed);
+        void stop();
+    
+    private:
+        float _pwm_rot_value;
+        float _pwm_move_value;
 
 }
 
