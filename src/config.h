@@ -10,5 +10,7 @@
 #define motorA_dir_neg
 #define motorB_dir_neg
 
+#define ZERO_SPEED;
+
 
 # endif
